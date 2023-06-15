@@ -9,6 +9,7 @@ import Navbar from "../../components/navbar"
 import { deleteUser, addUser, editUser, searchUser, clearSearch, sorting } from "../../store/slices/users"
 import { getUsers } from "../../store/slices/users/slices"
 
+
 function HomePage () {
     const [id, setId] = useState(null)
     const [alert, setAlert] = useState({ show : false, message : "" })
